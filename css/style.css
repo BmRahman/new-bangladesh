@@ -6,6 +6,11 @@
 
 /* shared styles */
 
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .primary-bg{
     background-color: #C6E4D6;
 }
@@ -21,6 +26,11 @@
     background: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* shared styles */
@@ -56,3 +66,58 @@ nav ul li a{
     background-color: transparent;
 }
 /* nav styles */
+
+/* banner styles */
+.banner{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+.bd-title{
+    font-size: 24px;
+    color: grey;
+    margin-bottom: 16px;
+}
+.bd h2{
+    font-size: 46px;
+    font-weight: bold;
+}
+.bd-btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    margin-top: 24px;
+    color: white;
+}
+/* banner styles */
+
+/* pillars style */
+.pillars-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.pillars{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.pill-box{
+    padding: 24px;
+    /* border: 1px solid gray; */
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+.pill-box h5{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.pill-box p{
+    font-size: 16px;
+}
+/* pillars style */
