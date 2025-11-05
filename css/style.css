@@ -26,6 +26,7 @@ main{
     background: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
+    color: white;
 }
 
 .section-title{
@@ -164,11 +165,15 @@ nav ul li a{
         padding: 48px 24px;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
         border-radius: 16px;
+        
     }
     .yousuf-desc{
         font-size: 16px;
         color: #0E0E0E;
         margin-bottom: 12px;
+        background-image: url("../assets/quote-bg.png");
+        background-repeat: no-repeat;
+        background-position: top-left;
     }
     .yousuf h5{
         font-size: 20px;
@@ -179,3 +184,114 @@ nav ul li a{
         font-size: 16px;
     }
 /* vision styles */
+
+/* satellite styles */
+.sat-box{
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.sat-box h3{
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.cal{
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.sat-det{
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+.rev{
+    flex-direction: row-reverse;
+}
+/* satellite styles */
+
+/* donate styles */
+.donate-section{
+    margin: 80px;
+    padding: 0px 100px;
+}
+.donate-title{
+    text-align: center;
+}
+.donate-head{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.donate-desc{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.amount{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.amount-box{
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+form{
+    text-align: center;
+    margin-top: 34px;
+}
+input{
+    width: 100%;
+    text-align: center;
+    padding: 20px 40px;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+.donate-btn{
+    margin-top: 34px;
+    text-align: center;
+}
+/* donate styles */
+
+/* newsletter style */
+.news{
+    margin-bottom: 80px;
+    padding: 80px 0px;
+    border-radius: 24px;
+}
+.sub input{
+    width: 60%;
+    padding: 17px 0px 17px 15px;
+    text-align: left;
+}
+.newsbn{
+    border-radius: 0px;
+    margin-left: -5px;
+}
+.sub p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+/* newsletter style */
+
+/* footer style */
+.footer{
+    padding: 50px 160px;
+    text-align: center;
+}
+.footer h2{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.footer hr{
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
+}
