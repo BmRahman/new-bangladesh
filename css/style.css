@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fira Sans;
+}
+
+/* shared styles */
+
+.primary-bg{
+    background-color: #C6E4D6;
+}
+.card-btn{
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.all-btn{
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+}
+
+/* shared styles */
+
+
+/* nav styles */
+nav{
+    margin: 24px 160px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.name{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.sign{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    background-color: transparent;
+}
+/* nav styles */
