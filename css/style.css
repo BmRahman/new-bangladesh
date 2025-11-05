@@ -121,3 +121,61 @@ nav ul li a{
     font-size: 16px;
 }
 /* pillars style */
+
+/* vision styles */
+    .vision-desc{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 32px;
+        margin-top: 24px;
+    }
+    .v1{
+        background-color: #81B4FC;
+    }
+    .v2{
+        background-color: #C6E4D6;
+    }
+    .v3{
+        background-color: #F7EBCF;
+    }
+    .vision-btn{
+        padding: 11px 20px;
+        font-size: 16px;
+        margin-top: 24px;
+        border-radius: 8px;
+    }
+    .b1{
+        background-color: #5490F5;
+        border: 1px solid #5490F5;
+        color: white;
+    }
+    .b2{
+       background-color: #09A15C;
+       border: 1px solid #09A15C;
+       color: white; 
+    }
+    .b3{
+        background-color: #FFC239;
+       border: 1px solid #FFC239;
+       color: white; 
+    }
+    .yousuf{
+        margin-top: 32px;
+        padding: 48px 24px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 16px;
+    }
+    .yousuf-desc{
+        font-size: 16px;
+        color: #0E0E0E;
+        margin-bottom: 12px;
+    }
+    .yousuf h5{
+        font-size: 20px;
+        color: #0E0E0E;
+        margin-bottom: 5px;
+    }
+    .yousuf-name{
+        font-size: 16px;
+    }
+/* vision styles */
